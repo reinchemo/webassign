@@ -1,0 +1,154 @@
+h1 {
+  text-align: left;
+  font-family: sans-serif;
+}
+
+a {
+  color: darkgreen;
+}
+
+.highlight {
+  color: darkblue;
+}
+
+h3 {
+  color: rgba(0, 0, 139, 0.8);
+}
+
+body {
+  background-color:#DCF5F5;
+}
+
+.blue {
+  color: blue;
+}
+
+.fancy {
+  font-family: cursive;
+}
+
+#content {
+  background-color: white;
+  padding: 20px;
+}
+
+.container {
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  background-color: lightgrey;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.box1 {
+  float: left;
+}
+
+.box2 {
+  float: right;
+}
+
+
+#my-icon::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f007";
+  color: #BFCFD4;
+}
+
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #444;
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+tr:hover {
+  background-color: #d9d9d9;
+}
+
+/* Add some fancy styles to the table */
+table.fancy {
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+table.fancy th {
+  background-color: #333;
+  color: #fff;
+}
+
+table.fancy tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table.fancy tr:hover {
+  background-color: #e6e6e6;
+}
+
+
+
+  

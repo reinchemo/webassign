@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Fancy Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #444;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #e6e6e6;
+    }
+
+    tr:hover {
+      background-color: #d9d9d9;
+    }
+
+    /* Add some fancy styles to the table */
+    table.fancy {
+      border: 2px solid #333;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    table.fancy th {
+      background-color: #333;
+      color: #fff;
+    }
+
+    table.fancy tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    table.fancy tr:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+  <table class="fancy">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Product 1</td>
+        <td>$10.00</td>
+        <td>2</td>
+        <td>$20.00</td>
+      </tr>
+      <tr>
+        <td>Product 2</td>
+        <td>$15.00</td>
+        <td>3</td>
+        <td>$45.00</td>
+      </tr>
+      <tr>
+        <td>Product 3</td>
+        <td>$20.00</td>
+        <td>1</td>
+        <td>$20.00</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
